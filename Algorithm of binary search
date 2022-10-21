@@ -1,0 +1,11 @@
+# Binary-Search
+Take a Array 
+Take a start index that point arr[0]
+Take a last index that point arr[arr.length-1]
+Take a midpoint (start + last)/2
+if(arr[i] == mid)
+return mid
+else if (arr[i] >mid)
+last = midpoint + 1;
+else if(arr[i] < midpoint)
+start = midpoint - 1;
